@@ -1,7 +1,7 @@
 var counter = 0;
 
 function btn_decrease(){
-    counter--;
+    counter = counter - 1;
     document.getElementById('count').innerHTML = counter;
 }
 
