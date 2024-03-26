@@ -1,20 +1,20 @@
 var counter = 0;
 
-function btn_decrease(){
-    counter = counter - 1;
-    document.getElementById('count').innerHTML = counter;
+function btn_decrease() {
+  counter--;
+  document.getElementById("count").innerHTML = counter;
 }
 
 var counter = 0;
 
 function btn_increase() {
-    counter++;
-    document.getElementById("count").innerHTML = counter;
+  counter++;
+  document.getElementById("count").innerHTML = counter;
 }
 
 var counter = 0;
 
 function btn_reset() {
-    counter = 0;
-    document.getElementById("count").innerHTML = counter;
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
 }
